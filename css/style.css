@@ -911,37 +911,40 @@ a.w3layouts-explore-all:hover {
     -o-transition: 1.5s all;
     -ms-transition: 1.5s all;
 }
-.focus-image i.fa-laptop {
+.focus-image i.fa-adn {
 	background:#ff9e29;
 }
-.focus-image i.fa-car {
+.focus-image i.fa-industry {
 	background:#3fb7d2;
+}
+.focus-image i.fa-cogs {
+	background:#843de0;
 }
 .focus-image i.fa-motorcycle {
 	background:#15c01c;
 }
-.focus-image i.fa-wheelchair {
+.focus-image i.fa-circle {
 	background:#7e3b07;
 }
-.focus-image i.fa-paw {
+.focus-image i.fa-check {
 	background:#1963ce;
 }
-.focus-image i.fa-book {
+.focus-image i.fa-file {
 	background:#c119ce;
 }
-.focus-image i.fa-asterisk {
+.focus-image i.fa-codepen {
 	background:#7fbad8;
 }
-.focus-image i.fa-gamepad {
+.focus-image i.fa-th-list {
 	background:#1ca39d;
 }
-.focus-image i.fa-shield {
+.focus-image i.fa-upload {
 	background:#f49ecf;
 }
-.focus-image i.fa-at {
+.focus-image i.fa-cube {
 	background:#070c1f;
 }
-.focus-image i.fa-home {
+.focus-image i.fa-undo {
 	background:#df8012;
 }
 .focus-layout:hover div.focus-image i.mobile{
