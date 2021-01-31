@@ -2732,7 +2732,7 @@ ul.all-cat-list li a:hover {
     padding: 70px 0px;
 }
 .agile-app-image img {
-	width:100%;
+	/* width:80%; */
 }
 .app-left h2 {
     font-size: 35px;
@@ -5153,7 +5153,7 @@ label {
 		font-size: 32px;
 	}
 	.col-md-7.agile-app-image {
-		width: 80%;
+		/* width: 80%; */
 		float: left;
 		margin: 8% 0 0 10%;
 	}
