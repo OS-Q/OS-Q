@@ -569,18 +569,18 @@ var elem=$('#container ul');
 				<div class="browse-category ads-list">
 					<label>Components</label>
 					<select class="selectpicker show-tick" data-live-search="true">
-					  <option data-tokens="Arduino">Arduino</option>
-					  <option data-tokens="Boards">Boards</option>
-					  <option data-tokens="Compiler">Compiler</option>
-					  <option data-tokens="Libraries">Libraries</option>
-					  <option data-tokens="Framework">Framework</option>
-					  <option data-tokens="Template">Template</option>
-					  <option data-tokens="Uploader">Uploader</option>
-					  <option data-tokens="Modules">Modules</option>
-					  <option data-tokens="Natives">Natives</option>
-					  <option data-tokens="Platform">Platform</option>
-					  <option data-tokens="Software">Software</option>
-					  <option data-tokens="Qualities">Qualities</option>
+					<option data-tokens="Arduino">Arduino</option>
+					<option data-tokens="Boards">Boards</option>
+					<option data-tokens="Compiler">Compiler</option>
+					<option data-tokens="Libraries">Libraries</option>
+					<option data-tokens="Framework">Framework</option>
+					<option data-tokens="Template">Template</option>
+					<option data-tokens="Uploader">Uploader</option>
+					<option data-tokens="Modules">Modules</option>
+					<option data-tokens="Natives">Natives</option>
+					<option data-tokens="Platform">Platform</option>
+					<option data-tokens="Software">Software</option>
+					<option data-tokens="Qualities">Qualities</option>
 					</select>
 				</div>
 				<div class="search-product ads-list">
@@ -623,14 +623,14 @@ var elem=$('#container ul');
 							<script type="text/javascript" src="js/jquery-ui.js"></script>
 							<script type='text/javascript'>//<![CDATA[
 							$(window).load(function(){
-							 $( "#slider-range" ).slider({
+							$( "#slider-range" ).slider({
 										range: true,
 										min: 0,
 										max: 9000,
 										values: [ 50, 6000 ],
 										slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
 										}
-							 });
+							});
 							$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
 							});//]]>
