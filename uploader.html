@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Books, Sports and Hobbies</title>
+<title>Uploader</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -214,30 +214,27 @@ var elem=$('#container ul');
 							<script type="text/javascript" src="js/jquery-ui.js"></script>
 							<script type='text/javascript'>//<![CDATA[
 							$(window).load(function(){
-							 $( "#slider-range" ).slider({
+								$( "#slider-range" ).slider({
 										range: true,
 										min: 0,
 										max: 9000,
 										values: [ 50, 6000 ],
 										slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
 										}
-							 });
+								});
 							$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-
 							});//]]>
-
 							</script>
-
 				</div>
 				<div class="w3-brand-select">
 					<h3 class="agileits-sear-head">Category</h3>
-					  <select class="selectpicker" data-live-search="true">
-					  <option data-tokens="All">Components</option>
-					  <option data-tokens="Competitive Exam">Competitive Exam</option>
-					  <option data-tokens="Education % Training">Education % Training</option>
-					  <option data-tokens="School Books">School Books</option>
-					  <option data-tokens="Children">Children</option>
-					  <option data-tokens="Other Books">Other Books</option>
+						<select class="selectpicker" data-live-search="true">
+						<option data-tokens="All">Components</option>
+						<option data-tokens="Competitive Exam">Competitive Exam</option>
+						<option data-tokens="Education % Training">Education % Training</option>
+						<option data-tokens="School Books">School Books</option>
+						<option data-tokens="Children">Children</option>
+						<option data-tokens="Other Books">Other Books</option>
 					</select>
 				</div>
 				<div class="w3ls-featured-ads">
